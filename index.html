@@ -7,17 +7,27 @@
   </head>
   <body>
     <div class="container-fluid">
+      <!-- ligne bleue (primary) -->
       <div class="row">
+        <!--
+        col-lg-3 = sur un écran large, ma div prend 3 colonnes
+        col-sm-6 = sur un écran petit (small), ma div prend 6 colonnes
+        col-6 = pour les tous petits écrans, ma div prend 6 colonnes
+        ma row répartit sur 12 colonnes en fonction de ce que j'ai indiqué
+        text-lg-right = sur un écran large, mon texte est justifié à droite
+        text-sm-right = sur un petit écran (small), mon texte est justifié à gauche
+        -->
         <div class="col-lg-3 col-sm-6 col-6 bg-primary text-white text-lg-right text-sm-left text-left border border-white">BLOC 1</div>
         <div class="col-lg-3 col-sm-6 col-6 bg-primary text-white text-lg-right text-sm-left text-left border border-white">BLOC 2</div>
         <div class="col-lg-3 col-sm-6 col-6 bg-primary text-white text-lg-right text-sm-left text-left border border-white">BLOC 3</div>
         <div class="col-lg-3 col-sm-6 col-6 bg-primary text-white text-lg-right text-sm-left text-left border border-white">BLOC 4</div>
       </div>
+      <!-- ligne jaune/orange (warning) -->
       <div class="row">
         <div class="col-lg-3 col-sm-12 col-12 bg-warning text-white text-lg-left text-sm-center text-center border border-white">BLOC 5</div>
-        <div class="col-lg-2 col-sm-4 col-4 bg-warning text-white text-lg-left text-sm-center text-center border border-white">BLOC 6</div>
-        <div class="col-lg-2 col-sm-4 col-4 bg-warning text-white text-lg-left text-sm-center text-center border border-white">BLOC 7</div>
-        <div class="col-lg-2 col-sm-4 col-4 bg-warning text-white text-lg-left text-sm-center text-center border border-white">BLOC 8</div>
+        <div class="col-lg-2 col-sm-4 col-4 bg-warning text-white text-lg-left text-sm-right text-right border border-white">BLOC 6</div>
+        <div class="col-lg-2 col-sm-4 col-4 bg-warning text-white text-lg-left text-sm-right text-right border border-white">BLOC 7</div>
+        <div class="col-lg-2 col-sm-4 col-4 bg-warning text-white text-lg-left text-sm-right text-right border border-white">BLOC 8</div>
         <div class="col-lg-3 col-sm-12 col-12 bg-warning text-white text-lg-left text-sm-center text-center border border-white">BLOC 9</div>
       </div>
     </div>
